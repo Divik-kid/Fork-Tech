@@ -22,7 +22,7 @@ public class Program
         //Need to implement secrets "Git-Token" = Your Git Token
 
         var configuration = new ConfigurationBuilder().AddUserSecrets<Program>().Build();
-        var token = "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";
+        var token = "Git-Token";
 
         client.DefaultRequestHeaders.UserAgent.Add(new System.Net.Http.Headers.ProductInfoHeaderValue("AppName", "1.0"));
         client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
